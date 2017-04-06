@@ -13,7 +13,7 @@ h1{
   color: white;
   z-index: 1;
   position: absolute;
-  top: 214%;
+  top: 142%;
   left: 35%;
   margin-top: 0;
   margin-bottom: 0;
@@ -41,6 +41,7 @@ h1{
       font-size:1em;
       line-height: 1.6em;
       width: 30%;
+      text-align: left;
   }
 nav{
     background-color: #f2f2f2;
@@ -130,4 +131,25 @@ img{
   line-height: 0.8em;
   text-transform: uppercase;
   color: #c3bbac;
+}
+.brownBackground{
+  background-color: #c3bbac;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3%; 
+  padding-left: 10%;
+  width: 80%;
+}
+footer {
+  background-color: #be5f27;
+  justify-content: space-around;
+}
+footer p{
+  color: #ffffff;
+  padding-top: 2%;
+}
+footer img{
+  text-align: center;
+  margin-left: 2%;
+  padding-bottom: 2%;
 }
